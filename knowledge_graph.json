@@ -1,0 +1,228 @@
+{
+  "entities": [
+    {
+      "name": "萧炎",
+      "type": "人"
+    },
+    {
+      "name": "测验魔石碑",
+      "type": "物体"
+    },
+    {
+      "name": "中年男子",
+      "type": "人"
+    },
+    {
+      "name": "萧媚",
+      "type": "人"
+    },
+    {
+      "name": "萧薰儿",
+      "type": "人"
+    },
+    {
+      "name": "萧战",
+      "type": "人"
+    },
+    {
+      "name": "地球",
+      "type": "地点"
+    },
+    {
+      "name": "斗气大陆",
+      "type": "地点"
+    },
+    {
+      "name": "狂狮怒罡",
+      "type": "斗气功法"
+    },
+    {
+      "name": "蛮族",
+      "type": "种族"
+    },
+    {
+      "name": "魔兽家族",
+      "type": "种族"
+    },
+    {
+      "name": "黑暗种族",
+      "type": "种族"
+    },
+    {
+      "name": "斗气秘籍",
+      "type": "物体"
+    },
+    {
+      "name": "斗气阁",
+      "type": "地点"
+    },
+    {
+      "name": "墨管家",
+      "type": "人"
+    },
+    {
+      "name": "二长老",
+      "type": "人"
+    },
+    {
+      "name": "月白衣袍老者",
+      "type": "人"
+    },
+    {
+      "name": "年轻男女",
+      "type": "人"
+    }
+  ],
+  "relations": [
+    {
+      "source": "萧炎",
+      "target": "测验魔石碑",
+      "relation": "测试斗气",
+      "weight": 1.0
+    },
+    {
+      "source": "萧炎",
+      "target": "中年男子",
+      "relation": "被公布成绩",
+      "weight": 0.8
+    },
+    {
+      "source": "萧炎",
+      "target": "萧媚",
+      "relation": "同族",
+      "weight": 0.5
+    },
+    {
+      "source": "萧炎",
+      "target": "萧薰儿",
+      "relation": "青梅竹马，被关心",
+      "weight": 1.0
+    },
+    {
+      "source": "萧炎",
+      "target": "萧战",
+      "relation": "父子",
+      "weight": 1.0
+    },
+    {
+      "source": "萧炎",
+      "target": "地球",
+      "relation": "来自",
+      "weight": 1.0
+    },
+    {
+      "source": "萧炎",
+      "target": "斗气大陆",
+      "relation": "穿越到",
+      "weight": 1.0
+    },
+    {
+      "source": "萧炎",
+      "target": "狂狮怒罡",
+      "relation": "家族功法",
+      "weight": 0.6
+    },
+    {
+      "source": "萧炎",
+      "target": "斗气秘籍",
+      "relation": "想要修炼",
+      "weight": 0.9
+    },
+    {
+      "source": "萧炎",
+      "target": "斗气阁",
+      "relation": "将被取消资格",
+      "weight": 0.8
+    },
+    {
+      "source": "萧炎",
+      "target": "墨管家",
+      "relation": "被其带领",
+      "weight": 0.5
+    },
+    {
+      "source": "萧炎",
+      "target": "二长老",
+      "relation": "被其刁难",
+      "weight": 0.7
+    },
+    {
+      "source": "萧炎",
+      "target": "月白衣袍老者",
+      "relation": "对其感到惊异",
+      "weight": 0.6
+    },
+    {
+      "source": "萧炎",
+      "target": "年轻男女",
+      "relation": "观察",
+      "weight": 0.5
+    },
+    {
+      "source": "萧炎",
+      "target": "黑色戒指",
+      "relation": "佩戴母亲遗物",
+      "weight": 0.9
+    },
+    {
+      "source": "中年男子",
+      "target": "萧炎",
+      "relation": "公布成绩",
+      "weight": 0.8
+    },
+    {
+      "source": "中年男子",
+      "target": "广场上的人群",
+      "relation": "公布成绩",
+      "weight": 0.6
+    },
+    {
+      "source": "萧媚",
+      "target": "萧炎",
+      "relation": "同族，曾仰慕",
+      "weight": 0.7
+    },
+    {
+      "source": "萧媚",
+      "target": "测验魔石碑",
+      "relation": "测试斗气",
+      "weight": 1.0
+    },
+    {
+      "source": "萧薰儿",
+      "target": "萧炎",
+      "relation": "青梅竹马，关心，仰慕",
+      "weight": 1.0
+    },
+    {
+      "source": "萧薰儿",
+      "target": "测验魔石碑",
+      "relation": "测试斗气",
+      "weight": 1.0
+    },
+    {
+      "source": "萧薰儿",
+      "target": "萧媚",
+      "relation": "同族，潜在竞争",
+      "weight": 0.6
+    },
+    {
+      "source": "萧战",
+      "target": "萧炎",
+      "relation": "父子，关心",
+      "weight": 1.0
+    },
+    {
+      "source": "月白衣袍老者",
+      "target": "萧战",
+      "relation": "客人",
+      "weight": 0.8
+    },
+    {
+      "source": "年轻男女",
+      "target": "萧战",
+      "relation": "客人",
+      "weight": 0.8
+    }
+  ]
+}
